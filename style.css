@@ -1,0 +1,39 @@
+.fa-arrow-right{
+    color: red;
+}
+
+nav{
+    height: 100px;
+}
+
+nav div img{
+    width: 200px;
+
+}
+
+.div-remove div{
+    padding: 0 10px;
+}
+
+h1 span.display-4{
+    font-family:cursive;
+}
+
+.card img{
+    height: 150px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.section2,.section3{
+    background-color: #0F0F0F;
+}
+
+span .rotate{
+    rotate: -45deg;
+}
+
+.col-sm-4{
+    margin: 10px 0 !important;
+}
+
