@@ -25,7 +25,7 @@ h1 span.display-4{
     border-radius: 10px;
 }
 
-.section2,.section3{
+.section2,.section3,.section4,footer{
     background-color: #0F0F0F;
 }
 
@@ -33,7 +33,31 @@ span .rotate{
     rotate: -45deg;
 }
 
-.col-sm-4{
-    margin: 10px 0 !important;
+div.gap{
+    gap: 20px 0;
 }
+
+div.gap1{
+    gap: 20px 20px;
+}
+
+.gap1>div{
+    border-radius: 10px;
+}
+
+.logo-footer{
+    width: 150px;
+}
+
+.iconss{
+    padding: 10px;
+    border-radius: 50%;
+
+}
+
+
+
+
+
+
 
