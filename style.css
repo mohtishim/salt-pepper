@@ -55,9 +55,69 @@ div.gap1{
 
 }
 
+.menu{
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    z-index: 10;
+    background-color: white;
+    width: 280px;
+    height: 100vh;
+    box-shadow: 2px 0 5px grey;
+    display: none;
+}
 
-@media only screen and (max-width:)
+.menu-show{
+    
+}
 
+.menu-show:hover .menu{
+    display: block;
+    
+}
+
+span .cross-menu{
+    cursor: pointer;
+}
+
+
+.menu div {
+    margin: 20px;
+    border-bottom: 1px solid grey;
+    padding: 5px;
+    color: black;
+}
+
+@keyframes menu{
+    0%{
+        left: -285px;
+    }
+
+    100%{
+        left: 0%;
+    }
+}
+
+.menu{
+    animation: menu 2s ;
+}
+
+
+@media only screen and (max-width:930px){
+    .menu-items{
+        display: none;
+    }
+    .nav-logo{
+        width: 120px;
+    }
+
+    .nav-button{
+        width: 170px;
+        font-size: 12px;
+        padding: 5px !important;
+        
+    }
+}
 
 
 

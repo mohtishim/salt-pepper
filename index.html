@@ -9,15 +9,33 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
   </head>
   <body class="bg-black">
-    <nav class="container-fluid d-flex bg-black text-white justify-content-between px-5">
-      <div><img class="img-fluid" src="./Images/logo.webp" alt=""></div>
+    <nav class="container-fluid d-flex bg-black text-white justify-content-between px-5 position-relative">
+      
+
+      <div class="d-flex align-items-center">
+
+        <div class=" menu-show">
+          <i class="fa-solid fa-bars fs-3"></i>
+          <div class="menu ">
+            <span class="d-flex justify-content-end p-2 fs-4 ">
+              <a href=""><i class="fa-solid fa-xmark text-black "></i></a>
+            </span>
+            <br><br>
+            <div>Home</div>
+            <div>About Us</div>
+            <div>Publications</div>
+            <div>Get a Franchise</div>
+          </div>
+        </div>
+      </div>
+      <div class="d-flex align-items-center"><img class="img-fluid nav-logo" src="./Images/logo.webp" alt=""></div>
       <div>
         <div class="div-remove d-flex justify-content-center align-items-center h-100">
-          <div>Home</div>
-          <div>About us</div>
-          <div>Publications</div>
-          <div><button class="rounded-pill bg-black text-white border-white py-2 px-3">Get a Franchise</button></div>
-        <div>
+          <div class="menu-items">Home</div>
+          <div class="menu-items">About us</div>
+          <div class="menu-items">Publications</div>
+          <div class="menu-items"><button class="rounded-pill bg-black text-white border-white py-2 px-3">Get a Franchise</button></div>
+        <div class="nav-button">
           <button class="text-white bg-danger rounded-pill py-3 px-3">Order Online<span><i class="fa-solid fa-arrow-right rounded-circle bg-white mx-2 p-2"></i></span></button>
         </div></div>
       </div>
