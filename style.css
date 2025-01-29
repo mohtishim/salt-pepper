@@ -110,22 +110,22 @@ span .cross-menu{
 }
 
 @media only screen and (max-width:930px){
-    nav{
-        padding: 0 5px !important;
-        margin: 0%;
+    #navbar{
+        padding: 0 !important;
+        margin: 0 !important;
     }
 
     .menu-items{
         display: none;
     }
     .nav-logo{
-        width: 120px;
+        width: 80px;
         
     }
 
     .nav-button button{
         pad: 5px;
-        font-size: 12px;
+        font-size: 10px;
     }
 
     .div-nav-logo{
