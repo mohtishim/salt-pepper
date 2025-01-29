@@ -102,20 +102,34 @@ span .cross-menu{
     animation: menu 2s ;
 }
 
+.nav-button button{
+    border-radius: 20px;
+    padding: 7px 10px;
+    background-color: red;
+    border: none;
+}
 
 @media only screen and (max-width:930px){
+    nav{
+        padding: 0 5px !important;
+        margin: 0%;
+    }
+
     .menu-items{
         display: none;
     }
     .nav-logo{
         width: 120px;
+        
     }
 
-    .nav-button{
-        width: 170px;
+    .nav-button button{
+        pad: 5px;
         font-size: 12px;
-        padding: 5px !important;
-        
+    }
+
+    .div-nav-logo{
+        height: 50px;
     }
 }
 
